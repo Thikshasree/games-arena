@@ -1,0 +1,9 @@
+mat-grid-tile{
+	background-color: lightblue;
+	border:solid black 2px;
+}
+
+.mat-icon {
+  cursor: pointer;
+  font-size: 25px;
+}

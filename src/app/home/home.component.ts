@@ -32,11 +32,11 @@ export class HomeComponent implements OnInit {
 				);
 			from(this.games)
 			.pipe(
-				groupBy(game => game.platform),
+				groupBy((game:any) => game.platform),
 				mergeMap(group => group.pipe(toArray()))
 				)
 			.subscribe(val => this.groupedGames.push(val));
-			console.log(this.groupedGames);
+			
 		},error=>alert("Error from service"))
 	}
 

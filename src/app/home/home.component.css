@@ -3,7 +3,65 @@ mat-grid-tile{
 	border:solid black 2px;
 }
 
+.header{
+	color:lightgreen;
+	margin:20px 0px 0px 20px;
+}
+
+.sub-header{
+	margin:0px 20px;
+}
+
 .mat-icon {
   cursor: pointer;
   font-size: 25px;
+}
+
+.margin-left-20{
+	margin-left:20px;
+}
+
+.search-width{
+	width:90%;
+}
+
+.grey-background{
+	background-color: #e6e6e6;
+}
+
+.card-style{
+	border-radius: 25px;
+	box-shadow: 2px 2px #888888;
+	height:205px;
+	margin:10px;
+}
+
+.card-content{
+	background-color: black;
+	margin:5px;
+	height:70px;
+	width:50px;
+}
+
+.game-platform{
+	display:block;
+	font-size:12px;
+}
+
+.yellow-font{
+	color:yellow;
+}
+
+.game-footer{
+	display:flex;
+	justify-content: space-between;
+}
+
+.redFont{
+	color:red;
+}
+
+.footer{
+	text-align:center;
+	margin-top:10px;
 }
